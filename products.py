@@ -77,3 +77,15 @@ while True:
 	products.append([name, price])
 	# 把輸入的商品name, 加入products 清單裏
 print(products)
+
+print('----------------------', '\n')
+
+# 05
+for p in products: # p 是products大清單裏的小清單 
+	print(p)    # 印出每一個小清單
+
+for p in products:
+	print(p[0]) # 印出每一個小清單的第0格
+
+for p in products:
+	print(p[0], '的價格是', p[1])
